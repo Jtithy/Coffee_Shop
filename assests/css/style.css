@@ -19,6 +19,14 @@ nav {
     align-items: center;
 }
 
+/* Image */
+.nav-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* Logo */
 .nav-logo {
     color: #ffffff;
