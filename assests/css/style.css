@@ -435,3 +435,61 @@ main{
     color: #2b1d16;
 }
 
+/* Contact Section */
+#contact{
+    padding: 20px 0;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#4e3629;
+}
+
+#contact .contact-header{
+    width: 400px;
+    padding: 10px 0;
+    margin: 5px;
+}
+
+.contact-header h3{
+    font-size: 25px;
+    color:#ffffff;
+    padding: 10px 0;
+}
+
+.contact-header p{
+    font-size: 15px;
+    color:#ffffff;
+    padding: 5px 0;
+}
+
+.contact-form{
+    width: 300px;
+    padding: 10px 0;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-btn{
+    background-color: #c49a6c;
+    color: #2b1d16;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover{
+    background-color: #ffffff;
+    color: #2b1d16;
+}
