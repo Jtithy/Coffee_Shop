@@ -1,0 +1,169 @@
+/* Root */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: #2b1d16;
+    padding: 15px 8%;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.nav-logo {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.nav-logo span {
+    color: #c49a6c;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #c49a6c;
+}
+
+/* Cart Button */
+.cart-btn {
+    background-color: #c49a6c;
+    color: #2b1d16;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-btn:hover {
+    background-color: #ffffff;
+}
+
+/* Main Content */
+main{
+    padding: 20px 5%;
+    width: 100%;
+    background-color:#4e3225;
+}
+
+/* Hero Section*/
+#hero{
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+}
+
+/* Hero Content */
+.hero-content{
+    max-width:fit-content;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-content h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    border: 2px solid #c49a6c;
+    padding: 5px 8px;
+    margin: 10px 2px;
+    border-radius: 15px;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    color:#ffffff;
+    margin: 70px 0;
+}
+
+.hero-content h1 span{
+    color:#ecba84;
+}
+
+.hero-content p{
+    font-size: 20px;
+    color:#ffffff;
+    margin-bottom: 20px;
+}
+/*Hero Buttons */
+.hero-buttons{
+    display: flex;
+    gap: 10px;
+}
+.hero-primary{
+    background-color: #c49a6c;
+    color: black;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-secondary{
+    background-color:#4e3225;
+    color: white;
+    border: 2px solid white;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hero Button Effect */
+.hero-primary:hover{
+    background-color: #ffffff;
+    color: #2b1d16;
+}
+
+.hero-secondary:hover{
+    background-color: #2b1d16;
+    color:#ecba84;
+}
+
+/* Hero Image */
+.hero-image{
+    width: 600px;
+    height: 600px;
+    background-color: #4e3225;
+    border-radius: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
