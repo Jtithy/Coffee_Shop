@@ -175,3 +175,115 @@ main{
     justify-content: right;
     align-items: right;
 }
+
+/* Service Section */
+#services{
+    margin: 10px 0;
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#services div{
+    text-align: center;
+    padding: 20px;
+    background-color:#312119;
+    border: 1px solid #1f140f;
+    border-radius: 15px;
+}
+
+#services div h4{
+    font-size: 20px;
+    color:#c7b39d;
+    padding: 10px 0;
+}
+
+#services div p{
+    font-size: 15px;
+    color:#ffffff;
+}
+
+/* Menu Section */
+#menu{
+    padding: 20px 0;
+    margin: 10px 0;
+    background-color:#3f2b21;
+    border: 1px solid #1f140f;
+    border-radius: 20px;
+}
+
+/* Menu Header */
+.menu-header{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.menu-header h2{
+    font-size: 30px;
+    color:#ffffff;
+}
+.menu-header h2 span{
+    color:#c49a6c;
+}
+
+.menu-header p{
+    font-size: 15px;
+    color:#ffffff;
+}
+
+/* Menu Items */
+.menu-items{
+    margin: 10px 0;
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.menu-items div{
+    text-align: center;
+    padding: 20px;
+    background-color:#312119;
+    border-radius: 25px;
+}
+
+.menu-items div h5{
+    font-size: 20px;
+    color:#c7b39d;
+    padding: 10px 0;
+}
+
+.menu-items div p{
+    font-size: 15px;
+    color:#ffffff;
+    padding: 5px 0;
+}
+
+.menu-items div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items div div h4{
+    font-size: 20px;
+    color:#c7b39d;
+    padding: 10px 0;
+}
+
+.menu-items div div button{
+    background-color: #c49a6c;
+    color: #2b1d16;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-items div div button:hover{
+    background-color: #ffffff;
+    color: #2b1d16;
+}
