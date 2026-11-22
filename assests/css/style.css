@@ -493,3 +493,131 @@ main{
     background-color: #ffffff;
     color: #2b1d16;
 }
+
+/* Footer Section */
+footer{
+    width: 100%;
+    background-color:#1f140f;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Footer Content */
+.footer-content{
+    width: 400px;
+    padding: 50px;
+    margin: 5px;
+    border-right: 2px solid #4e3629;
+}
+
+.footer-content .footer-title{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.footer-content .footer-title span{
+    color:#ecba84;
+}
+
+.footer-content p{
+    font-size: 15px;
+    color:#ffffff;
+    padding: 5px 0;
+}
+
+/* Footer Links */
+.footer-links{
+    width: 400px;
+    padding: 40px;
+    margin: 5px;
+    border-right: 2px solid #4e3629;
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color:#c49a6c;
+    padding: 10px 0;
+    
+}
+
+.footer-links div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-links div a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links div a:hover{
+    color: #ecba84;
+}
+
+/* Footer Social Icons */
+.social-icons{
+    width: 400px;
+    padding: 40px;
+    margin: 5px;
+    border-right: 2px solid #4e3629;
+}
+
+.social-icons h4{
+    font-size: 20px;
+    color:#c49a6c;
+    padding: 10px 0;
+}
+
+.social-icons a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover{
+    color: #ecba84;
+}
+
+/* Footer Contact Section */
+.contact-info{
+    width: 400px;
+    padding: 40px;
+    margin: 5px;
+}
+
+.contact-info h4{
+    font-size: 20px;
+    color:#c49a6c;
+    padding: 10px 0;
+}
+
+.contact-info p{
+    font-size: 15px;
+    color:#ffffff;
+    padding: 5px 0;
+}
+
+/* Footer Copyright */
+footer .rights{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px;
+    background-color:#0c0705;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
