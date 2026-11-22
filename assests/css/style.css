@@ -287,3 +287,151 @@ main{
     background-color: #ffffff;
     color: #2b1d16;
 }
+
+/* About Section */
+#about{
+    padding: 20px 0;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://t4.ftcdn.net/jpg/01/05/90/77/360_F_105907729_4RzHYsHJ2UFt5koUI19fc6VzyFPEjeXe.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content{
+    max-width:400px;;
+    padding: 25px;
+    margin: 10px;
+}
+
+.about-content h2{
+    font-size: 30px;
+    color:#ffffff;
+    padding: 10px 0;
+}
+
+.about-content h2 span{
+    color:#c49a6c;
+}
+
+.about-content p{
+    font-size: 15px;
+    color:#ffffff;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.about-list{
+    list-style: square;
+    padding: 5px 0;
+    color:#c49a6c;
+    text-align: left;
+    font-size: 15px;
+}
+
+.about-btn{
+    background-color: #c49a6c;
+    color: #2b1d16;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-btn:hover{
+    background-color: #ffffff;
+    color: #2b1d16;
+}
+
+/* Offers Section */
+#offers{
+    margin: 10px 0;
+    padding: 15px 0;
+    
+}
+
+#offers div{
+    text-align: center;
+    padding: 20px;
+    background-color:#312119;
+    border-radius: 15px;
+}
+
+#offers div .offers-header{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    color:#c7b39d;
+    padding: 20px 0;
+}
+
+.offers-header h2{
+    font-size: 20px;
+    color:#ffffff;
+    padding: 10px 0;
+}
+
+.offers-header p{
+    font-size: 15px;
+    color:#ffffff;
+    padding: 5px 0;
+}
+
+#offers .offers-items{
+    display: flex;
+    justify-content: space-between;
+    background-color:#4e3629;
+}
+
+.offers-items div{
+    padding: 10px;
+    margin: 5px;
+}
+
+.offers-items div span{
+    font-size: 25px;
+    color:#c7b39d;
+    padding: 10px 5px;
+    border: 2px dotted #c7b39d;
+    background-color:#4e3225;
+    margin: 5px;
+    border-radius:100px;
+    align-items: top-left;
+}
+
+.offers-items div h4{
+    font-size: 20px;
+    color:#ffffff;
+    padding: 10px 0;
+}
+
+.offers-items div p{
+    font-size: 15px;
+    color:#ffffff;
+    padding: 5px 0;
+}
+
+.offers-btn{
+    background-color: #c49a6c;
+    color: #2b1d16;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.offers-btn:hover{
+    background-color: #ffffff;
+    color: #2b1d16;
+}
+
